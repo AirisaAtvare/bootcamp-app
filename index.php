@@ -11,6 +11,6 @@
      <FORM action="" method="post">
      <LABEL for="firstname">First name: </LABEL>
      <INPUT type="text" id="firstname"><BR>
-
+    <script type="text/javascript" src="index.js"></script>
    </body>
 </html>
