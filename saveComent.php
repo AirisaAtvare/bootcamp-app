@@ -1,5 +1,7 @@
 <?php
-
+if (isset($_REQUEST['user'])){
+setcookie("NameCookie", $_REQUEST['user']);
+}
 $mysqli = new mysqli(
 'localhost',
 'homestead',
