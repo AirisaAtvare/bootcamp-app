@@ -1,5 +1,6 @@
 <?php
 use \Bootcamp\Demo\Rectangle;
+
 include 'vendor/autoload.php';
 
 $app = new Silex\Application();
