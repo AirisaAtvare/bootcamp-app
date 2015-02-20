@@ -1,5 +1,5 @@
 <?php
-
+use \Bootcamp\Demo\Rectangle;
 include 'vendor/autoload.php';
 
 $app = new Silex\Application();
@@ -9,7 +9,7 @@ $app->get('/hello/{name}', function ($name) use ($app) {
 });
 
 $app->get('/rectangle', function() {
-  $rectangle = new \Bootcamp\Demo\Rectangle(6,7);
+  $rectangle = new Rectangle(6,7);
   return $rectangle->get_area();
 });
 
