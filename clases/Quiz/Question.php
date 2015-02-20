@@ -31,16 +31,17 @@ class Question
         $this->title = $title;
         $this->options = [];
     }
-    public function isMultiAnswer(){
+    public function isMultiAnswer()
+    {
         $count = 0;
         foreach ($this->options as $option) {
-            if($option->isCorrect()===true){
+            if ($option->isCorrect()===true) {
                 $count++;
             }
-        if($count>1){
-            return true;
+            if ($count>1) {
+                return true;
+            }
         }
-        }
-     return false;
+        return false;
     }
 }

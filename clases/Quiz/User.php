@@ -4,7 +4,6 @@ namespace Bootcamp\Demo\Quiz;
 
 class User
 {
-  protected $id;
-  protected $name;
-
+    protected $id;
+    protected $name;
 }

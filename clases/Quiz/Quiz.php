@@ -8,19 +8,19 @@ class Quiz
    * Quiz questions
    * @var array $questions
    */
-  protected $questions;
+    protected $questions;
 
   /**
    * Quiz id
    * @var intiger $id
    */
-  protected $id;
+    protected $id;
 
   /**
    * Quiz name
    * @var string $name
    */
-  protected $name;
+    protected $name;
 
     public function addQuestion($question)
     {
@@ -28,8 +28,7 @@ class Quiz
     }
     public function __construct($name)
     {
-     $this->name = $name;
-     $this->questions = [];
+        $this->name = $name;
+        $this->questions = [];
     }
-
 }
