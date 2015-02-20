@@ -12,16 +12,15 @@ class Circle extends Shape
      */
     public function __construct($radius)
     {
-    $this->radius = $radius;
+        $this->radius = $radius;
     }
 
     /**
      * Calculates the area of Circle
      * @return float Circle area
      */
-    public function get_area()
+    public function getArea()
     {
-      return pi() * ($this->radius)**2;
+        return pi() * ($this->radius)**2;
     }
-
 }

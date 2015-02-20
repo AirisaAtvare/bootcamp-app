@@ -6,11 +6,10 @@
         "silex/silex": "~1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.4"
-    },
-    "require-dev": {
+        "phpunit/phpunit": "~4.4",
         "squizlabs/php_codesniffer": "~2.0"
     },
+
     "license": "MIT",
     "authors": [
         {

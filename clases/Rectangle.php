@@ -15,18 +15,19 @@ class Rectangle extends Shape
      * @param float $width Rectangle width
      * @param float $heght Rectangle heght
      */
-    public function __construct($width, $height){
+    public function __construct($width, $height)
+    {
 
-      $this->width = $width;
-      $this->height = $height;
+        $this->width = $width;
+        $this->height = $height;
     }
 
     /**
      * Calculates the area of Rectangle
      * @return float Rectangle area
      */
-    public function get_area()
+    public function getArea()
     {
-      return $this->width * $this->height;
+        return $this->width * $this->height;
     }
 }

@@ -14,16 +14,16 @@ class Cilindre extends Circle
 
     public function __construct($height, $radius)
     {
-      $this->height = $height;
-      $this->radius = $radius;
+        $this->height = $height;
+        $this->radius = $radius;
     }
 
     /**
      * Calculates the area of Cilindre
      * @return float Cilindre area
      */
-    public function get_area()
+    public function getArea()
     {
-      return (2*pi()*($this->radius))*(($this->radius)+($this->height));
+        return (2*pi()*($this->radius))*(($this->radius)+($this->height));
     }
 }
