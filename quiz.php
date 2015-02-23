@@ -44,5 +44,5 @@ $quiz = new Quiz('Simple');
 
 //print_r($quiz);
 // var_dump($options);
-// var_dump($quiz,$questions);
+//var_dump($quiz,$questions);
 var_dump($questions[2]->isMultiAnswer());
